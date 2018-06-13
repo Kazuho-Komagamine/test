@@ -1,0 +1,18 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// Hello World! の出力
+		int a = 5;
+
+		if (a < 10 && 3 < a){
+			System.out.println("A");
+		}
+
+		if (a >= 5 || a <= 0){
+			System.out.println("B");
+		}
+
+	}
+
+}

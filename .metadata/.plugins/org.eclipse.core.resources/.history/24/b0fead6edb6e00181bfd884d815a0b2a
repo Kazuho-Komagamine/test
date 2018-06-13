@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// Hello World! の出力
+		float a1 = 5 / 2;
+		System.out.println(a1);
+		float a2 = (float)5 / 2;
+		System.out.println(a2);
+
+	}
+
+}

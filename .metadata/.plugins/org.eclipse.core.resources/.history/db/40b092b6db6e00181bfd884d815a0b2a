@@ -1,0 +1,19 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// Hello World! の出力
+		float a1 = 5 / 2;
+		System.out.println(a1);
+		float a2 = (float)5 / 2;
+		System.out.println(a2);
+		float a3 = (float)10 / 3;
+		System.out.println(a3);
+		double a4 = (double)10 / 3;
+		System.out.println(a4);
+		int a = 7 % 3;
+		System.out.println(a);
+
+	}
+
+}

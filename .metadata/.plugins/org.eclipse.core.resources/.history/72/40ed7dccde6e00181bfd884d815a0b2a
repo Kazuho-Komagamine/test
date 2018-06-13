@@ -1,0 +1,17 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// Hello World! の出力
+		int a = 1;
+
+		switch (a){
+		case 0:
+			System.out.println("aは0に等しい")
+		}
+
+
+
+	}
+
+}
