@@ -1,0 +1,22 @@
+/**
+ *
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class ChkLoadJdbc {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)  throws InstantiationException, IllegalAccessException{
+		String msg = "";
+		try {
+			Class.forName(className)
+		}
+
+	}
+
+}
