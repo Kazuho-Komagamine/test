@@ -5,6 +5,8 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internousdev.login.dao.LoginDAO;
+import com.internousdev.login.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class LoginAction extends ActionSupport implements SessionAware{
@@ -19,10 +21,11 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 		dto = dao.select(name,password);
 		if (name.equals(dto.getName())){
-			if (password.equals(dto.getpassword())){
+			if (password.equals(dto.getPassword())){
 				ret = SUCCESS;
 			}
 		}
+
 		session.put("name", dto.getName());
 		return ret;
 	}
@@ -36,7 +39,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	public String getPassword(){
 		return password;
 	}
-	public void setPassword(){
+	public void setPassword(String password){
 		this.password = password;
 	}
 	public Map<String, Object> getSession(){
