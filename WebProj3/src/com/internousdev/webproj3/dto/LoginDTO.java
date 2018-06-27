@@ -19,4 +19,3 @@ public class LoginDTO {
 		this.password = password;
 	}
 }
-//ページ18まで終わった
