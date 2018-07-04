@@ -22,7 +22,7 @@ public class HelloStrutsAction extends ActionSupport implements SessionAware{
 		helloStrutsDTOList = dao.select();
 
 		if(helloStrutsDTOList.size() > 0){
-			session.put("helloStrutsDAOList", helloStrutsDTOList);
+			session.put("helloStrutsDTOList", helloStrutsDTOList);
 			ret = SUCCESS;
 		}else {
 			ret = ERROR;
