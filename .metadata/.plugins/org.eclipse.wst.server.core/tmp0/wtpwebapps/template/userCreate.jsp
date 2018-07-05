@@ -80,7 +80,7 @@ table {
                      <label>ログインPASS:</label>
                  </td>
                  <td>
-                     <input type="text" name="loginPassword" value=""/>
+                     <input type="password" name="loginPassword" value=""/>
                  </td>
              </tr>
              <tr>

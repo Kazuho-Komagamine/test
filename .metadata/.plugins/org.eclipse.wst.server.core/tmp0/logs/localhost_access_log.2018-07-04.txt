@@ -1,9 +1,0 @@
-127.0.0.1 - - [04/Jul/2018:13:40:55 +0900] "GET / HTTP/1.1" 404 1019
-0:0:0:0:0:0:0:1 - - [04/Jul/2018:13:40:57 +0900] "GET /template/ HTTP/1.1" 200 1626
-0:0:0:0:0:0:0:1 - - [04/Jul/2018:13:41:01 +0900] "POST /template/HomeAction.action HTTP/1.1" 200 2135
-0:0:0:0:0:0:0:1 - - [04/Jul/2018:13:41:12 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 2970
-127.0.0.1 - - [04/Jul/2018:16:24:50 +0900] "GET / HTTP/1.1" 404 1019
-0:0:0:0:0:0:0:1 - - [04/Jul/2018:16:24:53 +0900] "GET /template/userCreate.jsp HTTP/1.1" 200 2831
-0:0:0:0:0:0:0:1 - - [04/Jul/2018:16:25:35 +0900] "GET /template/userCreate.jsp HTTP/1.1" 200 2623
-0:0:0:0:0:0:0:1 - - [04/Jul/2018:16:28:37 +0900] "GET /template/userCreate.jsp HTTP/1.1" 200 2622
-0:0:0:0:0:0:0:1 - - [04/Jul/2018:16:35:45 +0900] "GET /template/userCreate.jsp HTTP/1.1" 200 2721
